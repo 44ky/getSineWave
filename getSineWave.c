@@ -49,9 +49,11 @@ int main( int argc, char* argv[] ) {
 			usage();
 			exit(EXIT_FAILURE);
 		}
-		argc -= optind;
-		argv += optind;
+//		argc -= optind;
+//		argv += optind;
+//		printf( "%s\n", optarg );
 	}
+//	printf( "%d %d %d %d %d \n", sinewave.bits, sinewave.ch, sinewave.rate, sinewave.fs, sinewave.sec );
 	getSineWave( &sinewave );
 	return 0;
 }
