@@ -9,6 +9,11 @@ Usage
     $ ./wave
 And you'll get the wave file on current directory.  
 
+Example
+------
+    $ Hi-Fi sine wave for guitar tuning
+    $ ./wave -b 24 -r 192000 -f 441
+
 Options
 ------
     $ ./wave -h
